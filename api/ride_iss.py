@@ -51,7 +51,7 @@ def main():
     # display every item in a list
     for astro in helmetson["people"]:
         # display ONLY the name value associated with astro
-        print(astro["name"] + " on the " + astro["craft"])
+        print(f"{astro['name']} on the {astro['craft']}")
 
 
 
